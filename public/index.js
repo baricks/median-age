@@ -1,10 +1,10 @@
-var width = 960;
-var height = 500;
+var width = 830;
+var height = 380;
 
 // D3 Projection
 var projection = d3.geo.albersUsa()
   .translate([width/2, height/2])   
-  .scale([1000]);
+  .scale([800]);
         
 // Define path generator
 var path = d3.geo.path()               
@@ -124,7 +124,7 @@ div.append("text")
 var legend = d3.select("body").append("svg")
           .attr("class", "legend")
           .attr("width", 140)
-          .attr("height", 200)
+          .attr("height", 160)
           .selectAll("g")
           .data(color.domain().slice().reverse())
           .enter()
@@ -139,6 +139,7 @@ var legend = d3.select("body").append("svg")
           .attr("x", 24)
           .attr("y", 9)
           .attr("dy", ".35em")
+          .style("font-size", 14)
           .text(function(d) { return d; });
   })
   });
