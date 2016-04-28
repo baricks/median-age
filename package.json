@@ -1,0 +1,14 @@
+{
+  "name": "life-expectancy",
+  "version": "1.0.0",
+  "description": "Interactive map showing median ages of people in the U.S.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}

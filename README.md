@@ -1,0 +1,1 @@
+Interactive map showing the median ages of people in the United States.
